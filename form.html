@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            background-image: url(https://t3.ftcdn.net/jpg/09/66/97/04/360_F_966970427_NSKLSr2Kb4CKZqrE9CdCd91FMKLVjhei.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .formdiv {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            flex-direction: column;
+            padding: 20px;
+        }
+
+        form {
+            width: 450px;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            background-color: rgb(203, 203, 203);
+        }
+
+        input,
+        select,
+        textarea {
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        .button {
+            padding: 10px;
+            margin: 10px;
+            width: 40%;
+            background-color: rgb(38, 38, 252);
+            color: white;
+            font-size: 15px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="formdiv">
+        <form action="#">
+            <h2>Your Education Registration <br>Apply Now :-</h2>
+            <label for="">Name*</label>
+            <input type="text" placeholder="Enter Your Full Name">
+            <label for="">Mobile Number*</label>
+            <input type="number" placeholder="Enter Your Mobile no">
+            <label for="">Email Id*</label>
+            <input type="email" placeholder="Enter Your Email">
+            <label for="">Enter Your Date of Birth*</label>
+            <input type="date">
+            <label for="">States*</label>
+            <select>
+                <option value="">Select States</option>
+                <option value="">Gujrat</option>
+                <option value="">Jharkhand</option>
+                <option value="">Uttarpradesh</option>
+                <option value="">Uttrakhand</option>
+                <option value="">Bihar</option>
+                <option value="">Rajesthan</option>
+            </select>
+            <label for="">City*</label>
+            <select>
+                <option value="">Select cities</option>
+                <option value="">Delhi</option>
+                <option value="">Jamshedpur</option>
+                <option value="">Ranchi</option>
+                <option value="">patna</option>
+                <option value="">Noida</option>
+            </select>
+            <label for="">Class*</label>
+            <select>
+                <option value="">Select Your Class</option>
+                <option value="">8 Class</option>
+                <option value="">9 Class</option>
+                <option value="">10 Class</option>
+                <option value="">11 Class</option>
+                <option value="">12 Class</option>
+            </select>
+            <label for="">Gender</label>
+            <select>
+                <option value="">Select gender</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+                <option value="">Other's</option>
+            </select>
+            <textarea name="" id="" placeholder="Type Your Message Here..."></textarea>
+            <input type="submit" value="Submit Now" class="button">
+        </form>
+    </div>
+</body>
+
+</html>
